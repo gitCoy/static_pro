@@ -2,14 +2,18 @@
   "name": "static_pro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
     "eslint": "^5.11.0",
-    "webpack": "^4.28.2"
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
   }
 }
