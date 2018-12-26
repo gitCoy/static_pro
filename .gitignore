@@ -1,10 +1,10 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-node_modules
+npm-debug.log*
+package-lock.json
 .idea
-*.iml
-out
-gen
+
+# production
+/build
+/dist
+
+# dependencies
+/node_modules
